@@ -1,0 +1,35 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+header {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 90px;
+   nav{
+    margin-right: 200px;
+   }
+   ul{
+        @include reset-list;
+        a {
+            @include reset-link($gray);
+            position: relative;
+            &::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 4px; /* Grosor de la línea */
+                top: 30px;
+                left: 0;
+                background-color: $pink; /* Color de la línea */
+                transition: width 0.1s;
+            }
+            &:hover{
+                color: $white;
+            }
+            &:hover::after{
+                width: 60%;
+            }
+
+        }
+    } 
+}

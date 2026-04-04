@@ -1,0 +1,28 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.activities{
+    display: flex;
+    gap: 70px;
+    justify-content: flex-start;
+    article{
+        display: flex;
+        gap: 12px;
+        width: 150px;
+        img{
+            background-color: $grey;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    }
+    article:last-of-type{
+        position: relative;
+        right: 45px;
+    }
+    a{
+        @include reset-link($white);
+        &:hover{
+            color: $pink;
+        }
+    }
+}

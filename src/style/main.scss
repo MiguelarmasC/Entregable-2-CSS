@@ -1,0 +1,29 @@
+// Importe de estilos.
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as *;
+
+@use './base/reset';
+@use './base/base';
+@use './base/typography';
+
+@use './components/buttons';
+
+@use './pages/home';
+
+@use './themes/default';
+
+@use './vendors/vendors';
+
+@use './layout/layout';
+
+body{
+    background-color: $black;
+}
+
+.container{
+    max-height: 1600px;
+    color: $white;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+}
