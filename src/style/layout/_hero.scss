@@ -9,7 +9,7 @@
         h1{
             font-weight: bold;
             font-size: 80px;
-            max-width: 85%;
+            width: 86%;
             font-family: $titule-font;
             margin-bottom: 30px;
         }
@@ -45,42 +45,42 @@
         .asian-woman{
             background-color: $green;
             border-radius: 90px;
-            width: 220px;
+            width: 26%;
             position: absolute;
-            right: 350px;
-            top: -20px;
+            right: 42%;
+            top: -4%;
         }
         .glasses-woman{
             background-color: $pink;
             border-radius: 80px;
-            width: 220px;
+            width: 26%;
             position: absolute;
-            right: 650px;
-            top: 475px;
+            left: -5%;
+            top: 95%;
         }
         .caucasian-man{
             background-color: $orange;
-            width: 218px;
+            width: 26%;
             border-radius: 85px;
             position: absolute;
-            right: 352px;
-            top: 240px;
+            right: 42%;
+            top: 50%;
         }
         .black-man{
             background-color: $violet;
-            width: 220px;
+            width: 26%;
             border-radius: 85px;
             position: absolute;
-            right: 650px;
-            bottom: 80px;
+            left: -5%;
+            bottom: 15%;
         }
         .dark-woman{
             background-color: $yellow;
-            width: 218px;
+            width: 26%;
             border-radius: 85px;
             position: absolute;
-            right: 40px;
-            top: 110px;
+            right: 5%;
+            top: 25%;
         }
         .line-1{
             display: block;

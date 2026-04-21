@@ -21,9 +21,10 @@ body{
 }
 
 .container{
-    max-height: 1600px;
+    min-height: 100vh;
     color: $white;
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 40px;
+    overflow: hidden;
 }
